@@ -1,4 +1,3 @@
-// import { expect } from 'chai'
 import LoginMethods from '../pages/LoginMethods.js'
 import PurchaseNoteMethods from '../pages/PurchaseNoteMethods.js'
 import * as ElementClass from '../resources/Elements.js'
@@ -12,12 +11,5 @@ describe('PurchaseNote', () => {
 
   it('PurchaseNote', () => {
     PurchaseNoteMethods.purchaseNote(ElementClass.amount)
-
-    // PurchaseNoteMethods.GetDynamicNotesStatus('Pending', 9, 1)
-    // HomePage.homePageTitle.waitForExist()
-    // expect(HomePage.homePageTitle.isExisting()).to.be.true
-    // expect(HomePage.homePageTitle.getText()).to.contain(
-    // 'Welcome to the-internet'
-    // )
   })
 })
